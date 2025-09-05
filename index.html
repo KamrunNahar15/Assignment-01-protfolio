@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(75, 75, 102);
+    }
+    h1 {
+      color: white;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      text-align: center;
+      text-shadow: 0px 0px 20px blueviolet;
+    }
+    h2 {
+      text-align: center;
+      color: white;
+      text-decoration: underline;
+      font-style: italic;
+      text-shadow: 0px 0px 20px blueviolet;
+    }
+    nav {
+      text-align: center;
+      font-size: 25px;
+      padding: 5px 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      text-shadow: 0px 0px 20px blueviolet;
+    }
+    nav a:hover {
+      color: red;
+      font-size: 30px;
+      text-shadow: 0px 0px 30px blueviolet;
+    }
+    nav a:visited {
+      color: pink;
+      text-shadow: 0px 0px 20px palevioletred;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 55%;
+      height: auto;
+      background-color: rgba(255, 255, 255, 0.116);
+      backdrop-filter: blur(10px);
+      box-shadow: 0px 0px 10px rgb(225, 204, 245);
+      margin-top: 5%;
+      margin-left: 24%;
+      border-radius: 12px;
+    }
+
+    .left {
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+
+    .right {
+      margin: 5%;
+      margin-top: 15%;
+    }
+    p {
+      color: rgb(236, 230, 230);
+      font-size: 20px;
+    }
+
+    .img {
+      width: 400px;
+      float: right;
+    }
+
+    footer {
+      color: white;
+      text-align: center;
+      text-shadow: 0px 0px 20px blueviolet;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Hello & Welcome to My Website</h1>
+      <nav>
+        <a href="index.html">Home</a> | <a href="skills.html">Skills</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="left">
+        <h2>About Me</h2>
+        <p>Name : Kamrunnahar Sumayea</p>
+        <p>Date of birth : 11/01/2005</p>
+        <p>Profession : Student</p>
+        <p>
+          Education : Bachelor of Science (B.Sc.) in Computer Science and
+          Engineering
+        </p>
+        <p>
+          Institute : Bangladesh Army International University of Science and
+          Technology (BAIUST)
+        </p>
+      </div>
+      <div class="right">
+        <img src="kamrunnahar.jpg" alt="Kamrunnahar" style="width: 140px" />
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy;2025 Kamrunnahar</p>
+    </footer>
+  </body>
+</html>
